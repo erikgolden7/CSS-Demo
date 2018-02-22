@@ -12,6 +12,7 @@
 
 main {
   margin-top: 120px;
+  overflow: hidden;
 }
 
 h1,
@@ -73,6 +74,19 @@ body {
   background-size: contain;
 }
 
+
+
+
+
+
+
+.bottom-background{
+  background: url('http://www.freebiesgallery.com/wp-content/uploads/2013/09/paper-background-8.jpg') center no-repeat;
+  background-size: cover;
+  width 100%;
+  height: 120vh;
+}
+
 .lists {
   width: 100%;
   padding: 50px 0 0 100px;
@@ -87,7 +101,7 @@ table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border: 1px solid black;
   text-align: left;
   padding: 8px;
 }
