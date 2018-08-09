@@ -18,6 +18,10 @@
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 
 
+
+
+
+
   <!-- A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,41 +30,32 @@
   <title>CSS Demo</title>
 
 
-  <!-- Import "open sans" font from fonts.google.com via the link tag here.-->
-  <!-- Make sure you add regular and bold font weights -->
-
-
   <!-- The reset.css file always goes before any other css file -->
   <!-- Create a reset.css file and add the contents from  https://cssreset.com/scripts/eric-meyer-reset-css/-->
   <link rel="stylesheet" href="reset.css">
-
 
 
   <!--Create a main.css file and link it here-->
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Merriweather" rel="stylesheet">
 
+
+  <!-- Add a Favicon -->
+  <link rel="shortcut icon" href="https://images-na.ssl-images-amazon.com/images/I/417USI7BXFL.jpg" type="image/x-icon" />
+
 </head>
 
 <body>
 
   <!-- Add header element here. The header element is going to contain your website navigation & company logo-->
-  <!-- <nav class="nav"> -->
+
   <div class="nav">
     <div class="logo"></div>
-
-    <div class="nav-bar">
-      <a class="nav-item" href="#home">Home</a>
-      <a class="nav-item" href="#news">News</a>
-      <a class="nav-item" href="#contact">Contact</a>
-      <a class="nav-item" href="#about">About</a>
-    </div>
+    <div class="nav-item" href="#home">Home</div>
+    <div class="nav-item" href="#news">News</div>
+    <div class="nav-item" href="#contact">Contact</div>
+    <div class="nav-item" href="#about">About</div>
   </div>
-
-
-  <!-- </nav> -->
-
-
 
 
   <!-- The main tag is going to hold all of our website content. -->
@@ -82,48 +77,23 @@
           <span class="red-text">small animals</span> yawn small animals shake slobber gimme five toys polydactyl meow. Turtle cage lazy cat foot
           lazy cat groom canary window tooth brush bedding lazy cat pet supplies turtle water dog shake pet supplies kitty.
         </p>
-        </br>
-        <p>
-          Walk bird harness wet nose meow harness grooming water dog lol catz water bedding toys bird seed fetch lazy cat. Parakeet
-          scratcher brush biscuit lick dog tooth walk food lazy cat biscuit. Cockatiel Snowball kitten Rover ferret puppy.
-          Pet Food pet supplies gimme five puppy cage food feathers food heel feathers running pet gate walk lazy dog Spike.
-          Good Boy park lazy dog walk kibble Scooby snacks licks canary. Maine Coon Cat walk catch water dog slobber chew
-          scratcher ID tag litter tuxedo dog house lazy cat park. Dinnertime fetch throw feathers fleas tongue lazy cat lick
-          throw kitten parrot hamster wag tail aquarium chew heel good boy lick feathers cockatiel. Wet Nose food ferret
-        </p>
-        </br>
-        <p>
-          vaccine finch vaccination Scooby snacks string wagging barky tail head good boy pet gate meow good boy. Commands shake bird
-          biscuit left paw finch bark ferret bark gimme five turtle fur canary. Water puppy dog lick kisses pet supplies
-          slobber cat bird seed. Food sit biscuit groom tongue cage. Play Dead sit nap lazy dog wet nose Tigger run fast
-          fish lazy cat wagging hamster toy field yawn feathers ferret yawn aquarium.Feathers bird seed food scratcher mouse
-          running teeth licks heel walk pet gate maine coon cat collar twine parakeet. Roll Over kitty barky critters litter
-          stick window litter box wagging field toy. Whiskers harness biscuit food lick small animals throw meow house train.
-        </p>
-        </br>
-        <p>
-          Bedding field hamster small animals carrier polydactyl groom vaccine. Commands running gimme five groom slobber run fast
-          head ball litter box biscuit catch run fast roll over. Roll Over litter box tabby pet slobbery play dead kitty
-          roll over small animals barky good boy string kitty fish licks teeth chew drool. ID Tag barky lick parakeet wet
-          nose ball walk tabby wag tail chirp nest. Spike bird seed water teeth leash ball. Crate pet food stripes carrier
-          drool slobbery tabby dog puppy birds walk roll over bird food Mittens pet supplies.
-        </p>
       </div>
 
-
+      <!-- Demonstrate img tag along with hr tags -->
+      <hr>
+      <img 
+        class="center-image" src="https://cdn4.iconfinder.com/data/icons/unicons/88/objects-feet-512.png" alt="Smiley face"
+        height="80" width="80"
+      >
       <hr>
 
-      <img class="center-image" src="https://cdn4.iconfinder.com/data/icons/unicons/88/objects-feet-512.png" alt="Smiley face"
-        height="80" width="80">
-
-      <hr>
-
-      <div class="images">
-        <div class="parallax"></div>
-      </div>
+      <!-- <div class="images"> -->
+        <!-- <div class="parallax"></div> -->
+      <!-- </div> -->
     </section>
 
 
+    <!-- Demonstrate creating ul and ol lists -->
     <section class="bottom-background">
       <div class="lists">
         <h2>Dog Breeds</h2>
@@ -167,27 +137,16 @@
             <td>Roland Mendel</td>
             <td>Austria</td>
           </tr>
-          <tr>
-            <td>Island Trading</td>
-            <td>Helen Bennett</td>
-            <td>UK</td>
-          </tr>
-          <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>Italy</td>
-          </tr>
         </table>
       </div>
 
-      <iframe style="  display: block;
-      margin-left:auto; margin-right: auto; margin-bottom: 50px;" width="560" height="315" src="https://www.youtube.com/embed/jIIEwTpSBAw" frameborder="0" allow="autoplay; encrypted-media"
-        allowfullscreen></iframe>
+      <iframe 
+        style="display: block; margin-left:auto; margin-right: auto; margin-bottom: 50px;" 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/jIIEwTpSBAw"
+        allow="autoplay; encrypted-media" 
+      ></iframe>
 
     </section>
 
