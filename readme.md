@@ -27,7 +27,7 @@ HTML
 - Student can use div, p, h1-h6, and span tags to layout a flow of information
 - Student can use ol, ul, and li tags
 - Student can use nav, footer, and header tags
-- Student can use img tags to bring in picturs
+- Student can use img tags to bring in pictures
 - Student can use a tags to route to another webpage
 - Student can use link tag to bring in css files
 

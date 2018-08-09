@@ -29,6 +29,10 @@ body {
   font-family: "Inconsolata", monospace;
 }
 
+.text-span {
+  color: red;
+}
+
 .center-box {
   margin: auto;
   margin-bottom: 80px;
