@@ -3,6 +3,12 @@ Lecture Links:
 - Specificity
   http://www.standardista.com/wp-content/uploads/2012/01/specifishity.pdf
 
+- Box Model
+  https://helpx.adobe.com/content/dam/help/en/dreamweaver/how-to/use-css-to-style-divs/_jcr_content/main-pars/image_1/box-model.png
+  
+- Reset file
+  https://meyerweb.com/eric/tools/css/reset/
+
 - House frame representing HTML
   https://i.pinimg.com/originals/28/e0/f6/28e0f697320f7ebbba5bf99a7e9587e0.jpg
 
@@ -12,6 +18,7 @@ Lecture Links:
 - Dubstep Christmas lights representing Javascript
   https://www.youtube.com/watch?v=90oZ52M4IC0
   - Start playing at 5:51
+
 
 HTML
 

@@ -7,7 +7,7 @@
   font-size: 55px;
 }
 
-#sub-title {
+.sub-title {
   text-align: center;
   font-size: 30px;
 }
@@ -77,16 +77,9 @@ body {
   background-size: contain;
 }
 
-
-
-
-
-
-
 .bottom-background{
   background: url('http://www.freebiesgallery.com/wp-content/uploads/2013/09/paper-background-8.jpg') center no-repeat;
   background-size: cover;
-  width 100%;
   height: 120vh;
 }
 
@@ -109,9 +102,9 @@ th {
   padding: 8px;
 }
 
-/* tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: #dddddd;
-} */
+}
 
 /* .parallax { */
   /* The image used */

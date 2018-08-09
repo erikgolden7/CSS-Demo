@@ -1,15 +1,12 @@
 <!-- The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. -->
 <!DOCTYPE html>
 
-
 <!-- The HTML lang attribute can be used to declare the language of a Web page or a portion of a Web page. -->
 <html lang="en">
-
 
 <head>
   <!-- The charset attribute specifies the character encoding for the HTML document. -->
   <meta charset="UTF-8">
-
 
   <!--Here is an example of a meta tag for the description of your website-->
   <!--Full meta tag list can be found here http://www.metatags.org/-->
@@ -17,28 +14,19 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 
-
-
-
-
-
   <!-- A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
   <!--Make sure you always have a title -->
   <title>CSS Demo</title>
-
 
   <!-- The reset.css file always goes before any other css file -->
   <!-- Create a reset.css file and add the contents from  https://cssreset.com/scripts/eric-meyer-reset-css/-->
   <link rel="stylesheet" href="reset.css">
 
-
   <!--Create a main.css file and link it here-->
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Merriweather" rel="stylesheet">
-
 
   <!-- Add a Favicon -->
   <link rel="shortcut icon" href="https://images-na.ssl-images-amazon.com/images/I/417USI7BXFL.jpg" type="image/x-icon" />
@@ -48,23 +36,22 @@
 <body>
 
   <!-- Add header element here. The header element is going to contain your website navigation & company logo-->
-
-  <div class="nav">
+  <header class="nav">
     <div class="logo"></div>
-    <div class="nav-item" href="#home">Home</div>
-    <div class="nav-item" href="#news">News</div>
-    <div class="nav-item" href="#contact">Contact</div>
-    <div class="nav-item" href="#about">About</div>
-  </div>
+    <a class="nav-item" href="#home">Home</a>
+    <a class="nav-item" href="#news">News</a>
+    <a class="nav-item" href="#contact">Contact</a>
+    <a class="nav-item" href="#about">About</a>
+  </header>
 
 
   <!-- The main tag is going to hold all of our website content. -->
   <main>
 
-    <header>
+    <div id="top">
       <h1 id="title">The Puppy Barn</h1>
-      <h3 id="sub-title">Find your future fur baby</h3>
-    </header>
+      <h3 class="sub-title">Find your future fur baby</h3>
+    </div>
 
     <section>
       <div class="center-box">
@@ -77,6 +64,7 @@
           <span class="red-text">small animals</span> yawn small animals shake slobber gimme five toys polydactyl meow. Turtle cage lazy cat foot
           lazy cat groom canary window tooth brush bedding lazy cat pet supplies turtle water dog shake pet supplies kitty.
         </p>
+        Find more information about puppies at the <a target=_blank href="https://dogtime.com/">dogtime website</a>
       </div>
 
       <!-- Demonstrate img tag along with hr tags -->
@@ -87,6 +75,7 @@
       >
       <hr>
 
+      <!-- If there is extra time, show them parallax -->
       <!-- <div class="images"> -->
         <!-- <div class="parallax"></div> -->
       <!-- </div> -->
@@ -114,8 +103,9 @@
       </div>
 
       <div>
-        <h1 id="sub-title">Puppy Breeders</h1>
+        <h1 class="sub-title">Puppy Breeders</h1>
 
+        <!-- Demonstrate creating a table with alternating colors -->
         <table>
           <tr>
             <th>Breeder</th>
@@ -140,6 +130,7 @@
         </table>
       </div>
 
+      <!-- Demonstrate using iframes to add videos -->
       <iframe 
         style="display: block; margin-left:auto; margin-right: auto; margin-bottom: 50px;" 
         width="560" 
@@ -148,6 +139,8 @@
         allow="autoplay; encrypted-media" 
       ></iframe>
 
+      <!-- Use href to navigate to different sections of the same page -->
+      <a href="#top">Go to top</a>
     </section>
 
   </main>
